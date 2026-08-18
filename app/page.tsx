@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Sección de Paquetes y Servicios Integrales */}
+      {/* Sección de Paquetes */}
       <section id="servicios" className="py-24 px-6 bg-white border-y border-stone-200">
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-16">
@@ -74,14 +74,11 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Plan Digital Esencial */}
             <div className="bg-[#FAFAF7] p-8 rounded-3xl border border-stone-200 flex flex-col justify-between hover:shadow-lg transition duration-300">
               <div>
                 <span className="text-xs font-semibold tracking-wider text-stone-500 uppercase">Esencial</span>
                 <h4 className="text-2xl font-medium mt-2 mb-4 text-stone-900">Web Interactiva</h4>
-                <p className="text-stone-600 text-sm leading-relaxed mb-6">
-                  Ideal para una comunicación moderna y directa con tus invitados.
-                </p>
+                <p className="text-stone-600 text-sm leading-relaxed mb-6">Ideal para una comunicación moderna y directa con tus invitados.</p>
                 <ul className="text-xs text-stone-600 space-y-3 mb-8">
                   <li>✓ Cuenta regresiva en tiempo real</li>
                   <li>✓ Confirmación de Asistencia (RSVP)</li>
@@ -94,7 +91,6 @@ export default function Home() {
               </a>
             </div>
             
-            {/* Plan Híbrido (Destacado con Papelería Física) */}
             <div className="bg-stone-900 text-white p-8 rounded-3xl border border-stone-900 flex flex-col justify-between shadow-xl relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-amber-600 text-white text-[10px] uppercase font-bold tracking-widest px-4 py-1 rounded-bl-xl">
                 Más Elegido
@@ -102,9 +98,7 @@ export default function Home() {
               <div>
                 <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase">Híbrido Premium</span>
                 <h4 className="text-2xl font-medium mt-2 mb-4 text-white">Web + Tarjetas Físicas QR</h4>
-                <p className="text-stone-300 text-sm leading-relaxed mb-6">
-                  Lo mejor de ambos mundos: la elegancia del papel impreso unida a la tecnología digital.
-                </p>
+                <p className="text-stone-300 text-sm leading-relaxed mb-6">Lo mejor de ambos mundos: la elegancia del papel impreso unida a la tecnología digital.</p>
                 <ul className="text-xs text-stone-300 space-y-3 mb-8">
                   <li>✓ Todo lo incluído en la Web Interactiva</li>
                   <li>✓ Diseño y confección de tarjetas físicas minimalistas</li>
@@ -117,14 +111,11 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Plan Integral Total */}
             <div className="bg-[#FAFAF7] p-8 rounded-3xl border border-stone-200 flex flex-col justify-between hover:shadow-lg transition duration-300">
               <div>
                 <span className="text-xs font-semibold tracking-wider text-stone-500 uppercase">Experiencia Total</span>
                 <h4 className="text-2xl font-medium mt-2 mb-4 text-stone-900">15 Años / Bodas Pro</h4>
-                <p className="text-stone-600 text-sm leading-relaxed mb-6">
-                  Solución integral avanzada con herramientas extendidas para el salón y organización.
-                </p>
+                <p className="text-stone-600 text-sm leading-relaxed mb-6">Solución integral avanzada con herramientas extendidas para el salón y organización.</p>
                 <ul className="text-xs text-stone-600 space-y-3 mb-8">
                   <li>✓ Web Interactiva de alta complejidad</li>
                   <li>✓ Kit completo de gráficas para Redes Sociales</li>
@@ -140,7 +131,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NUEVA SECCIÓN: Muestrario / Galería de Estilos (Miniaturas deslizables) */}
+      {/* Muestrario de Estilos Visuales */}
       <section id="estilos" className="py-24 px-6 bg-[#FAFAF7]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-16">
@@ -150,13 +141,11 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Estilo 1: Romántico / Bodas */}
-            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition">
-              <div className="h-48 bg-stone-100 flex items-center justify-center border-b border-stone-200 relative overflow-hidden">
+            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm">
+              <div className="h-48 bg-stone-100 flex items-center justify-center border-b border-stone-200 relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-stone-100 flex flex-col items-center justify-center p-4 text-center">
                   <span className="text-xs uppercase tracking-widest text-amber-800 font-serif mb-1">Nuestra Boda</span>
-                  <p className="font-serif italic text-xl text-stone-800">Valentía & Lucas</p>
-                  <span className="text-[10px] text-stone-500 mt-2 bg-white/80 px-2.5 py-1 rounded-full border border-stone-200">Cuenta Regresiva • RSVP</span>
+                  <p className="font-serif italic text-xl text-stone-800">Valentía & Mateo</p>
                 </div>
               </div>
               <div className="p-6">
@@ -165,13 +154,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Estilo 2: Vibrante / Cumpleaños de 15 */}
-            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition">
-              <div className="h-48 bg-stone-900 flex items-center justify-center border-b border-stone-200 relative overflow-hidden">
+            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm">
+              <div className="h-48 bg-stone-900 flex items-center justify-center border-b border-stone-200 relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-indigo-950 flex flex-col items-center justify-center p-4 text-center">
                   <span className="text-xs uppercase tracking-widest text-amber-400 font-sans mb-1">Mis 15 Años</span>
                   <p className="font-bold text-xl text-white tracking-wider">Sofía Martina</p>
-                  <span className="text-[10px] text-amber-300 mt-2 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-full">Galería de Fotos • Playlist</span>
                 </div>
               </div>
               <div className="p-6">
@@ -180,13 +167,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Estilo 3: Clásico / Eventos Generales */}
-            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition">
-              <div className="h-48 bg-stone-100 flex items-center justify-center border-b border-stone-200 relative overflow-hidden">
+            <div className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow-sm">
+              <div className="h-48 bg-stone-100 flex items-center justify-center border-b border-stone-200 relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-stone-200 to-stone-300 flex flex-col items-center justify-center p-4 text-center">
                   <span className="text-xs uppercase tracking-widest text-stone-700 font-sans mb-1">Celebración Aniversario</span>
                   <p className="font-semibold text-lg text-stone-900">Empresarial / Social</p>
-                  <span className="text-[10px] text-stone-700 mt-2 bg-white px-2.5 py-1 rounded-full border border-stone-300">Control de Acceso • Agenda</span>
                 </div>
               </div>
               <div className="p-6">
@@ -198,7 +183,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Casos de Éxito / Demostración Real */}
+      {/* Casos de Éxito Anonimizados y Profesionales */}
       <section id="casos" className="py-24 px-6 bg-white border-t border-stone-200">
         <div className="max-w-4xl mx-auto text-center">
           <span className="text-amber-700 font-semibold text-xs tracking-[0.2em] uppercase block mb-2">Prueba Real de Calidad</span>
@@ -210,17 +195,17 @@ export default function Home() {
               <span className="bg-amber-100 text-amber-800 text-[10px] tracking-widest px-3.5 py-1.5 rounded-full uppercase font-semibold">
                 Proyecto Destacado
               </span>
-              <h4 className="text-2xl font-medium mt-4 mb-3 text-stone-900">¡Nos Casamos! — Invitación Interactiva a Medida</h4>
+              <h4 className="text-2xl font-medium mt-4 mb-3 text-stone-900">Boda Valentina & Mateo — Invitación Interactiva</h4>
               <p className="text-stone-600 text-sm mb-6 leading-relaxed">
                 Plataforma web desarrollada íntegramente con cuenta regresiva en tiempo real, gestión inteligente de invitados (Confirmación de asistencia / RSVP), historias de pareja y pasarela de regalos integrada. Cero plantillas genéricas: desarrollo exclusivo.
               </p>
+              
+              {/* Botón informativo o de consulta sobre el diseño */}
               <a 
-                href="#" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="#contacto" 
                 className="inline-block bg-stone-900 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-xl text-xs tracking-wider uppercase transition shadow-sm"
               >
-                🔗 Ver Demostración en Vivo
+                💬 Consultar por este Estilo
               </a>
             </div>
           </div>
@@ -252,7 +237,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sección de Bases Legales y Condiciones */}
+      {/* Bases Legales */}
       <section id="legales" className="py-20 px-6 bg-white border-t border-stone-200">
         <div className="max-w-4xl mx-auto">
           <h3 className="text-xl font-light mb-6 text-stone-900">Bases, Términos y Condiciones Legales</h3>
